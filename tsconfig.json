@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "ES5",
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+    "outDir": "build",
+    "lib": ["ESNext"],
+    "types": ["google-apps-script"]
+  },
+  "include": ["src/**/*.ts"],
+  "files": ["src/index.ts"]
+}
