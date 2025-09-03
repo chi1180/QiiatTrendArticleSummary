@@ -21,11 +21,14 @@ npm run push
 
 5. Copy html code from this repository's "src/template.html" and paste it into the HTML file in GAS editor.
 
-6. Set script property `emailaddress` at GAS project setting page.
+6. Set script properties at GAS project setting page.
 
-_example: ["example@domain.com"]_
-
-↑need to be array of string
+> [!info] Script properties
+>
+> - `gemini_api_key` Gemini AI API key; e.i. `xxxxxxxx000xxxx00x0x00x00`
+> - `recipients` Project running result resibed e-mail addresses. An array of string; e.i.
+>   `["example@domain.com", "example_2@domain.com"]`
+> - `qiita_api_key` Qiita API key; e.i. `xxxxxxxx000xxxx00x0x00x00` ↑permission is writing, and reading.
 
 7. Back to editor and click [Add a service] button on left side panel and select "YouTube Data API"
 
